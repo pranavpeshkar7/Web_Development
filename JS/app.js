@@ -472,3 +472,65 @@
 //     }
 // };
 
+//assign 6
+// function maxElement(arr){
+//     let max = 0;
+//     for(let i=0; i<arr.length; i++){
+//         if(arr[i] > max){
+//             max = arr[i];
+//         }
+//     }
+//     return max;
+// }
+
+// let arr = [2,1,9,7,3,4];
+// console.log(maxElement(arr));
+
+// function extractChar(str){
+//     let newStr = "";
+//     for(let i=0; i<str.length; i++){       
+//         if(!newStr.includes(str[i])){
+//             newStr += str[i];
+//         }
+//     }
+//     return newStr;
+// }
+
+// let str = "abcdabcdefgggh";
+// console.log(extractChar(str));
+
+// function longCountryName(str){
+//     let max = str[0].length;
+//     let idx = 0;
+//     for(let i=1; i<str.length; i++){
+//         if(str[i].length > max){
+//             max = str[i].length;
+//             idx = i;
+//         }
+//     }
+//     return str[idx];
+// }
+
+// let str = ["Australia","Germany","United States of America"];
+// console.log(longCountryName(str));
+
+// let str = "aeiouaeiouaeiouaeiouaeiouaeiouaeiouaeiouaeiouaeiouaeiouaeiou";
+
+// function countVowels(str){
+//     let count = 0;
+//     for(let i=0; i<str.length; i++){
+//         if(str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u'){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+
+// console.log(countVowels(str));
+
+// function randomNumberRange(start,end){
+//     let diff = end - start;
+//     return Math.floor(Math.random() * diff) + start;
+// }
+
+// console.log(randomNumberRange(10,30));
