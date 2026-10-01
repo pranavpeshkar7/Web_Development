@@ -1,0 +1,50 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: greenyellow;
+    /* animation-name: width;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal; */
+    animation: custom 3s ease-in 0s infinite normal;
+}
+@keyframes custom{
+    0%{
+        width: 10px;
+        background-color: aqua;
+    }
+    50%{
+        width: 100px;
+        background-color: blueviolet;
+    }
+    100%{
+        width: 300px;
+        background-color: crimson;
+    }
+}
+@keyframes fontAnimation{
+    from{
+        font-size:20px;
+    }
+    to{
+        font-size:40px;
+    }
+}
+@keyframes color{
+    from{
+        background-color: aliceblue;
+    }
+    to{
+        background-color: crimson;
+    }
+}
+@keyframes width{
+    from{
+        width: 10px;
+    }
+    to{
+        width: 400px;
+    }
+}

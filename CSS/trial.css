@@ -1,0 +1,88 @@
+#mainTopic{
+    color: blue;
+}
+*{
+    text-align: center;
+    font-family: Georgia;
+}
+.para{
+    color: white;
+    background-color: cornflowerblue;
+}
+div>button{
+    color: azure;
+    background-color: purple;
+}
+
+
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+.para:nth-of-type(2n+1){
+    color: yellow;
+}
+
+h1::first-letter{
+    color: red;
+}
+
+input[type="checkbox"]:checked+label{
+    color: darkgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    background-color: wheat;
+    text-align: center;
+    font-family: Georgia;
+}
+p{
+    color: red;
+    background-color: #964B00;
+    line-height: 30px;
+}
+h3{
+    color: black;
+}
+a{
+    color: rgb(0,255,0);
+    text-decoration: none;
+}
+button{
+    color: blueviolet;
+    background-color: white;
+}
+textarea{
+    color: #000000;
+}
+span{
+    text-decoration: underline;
+} */
