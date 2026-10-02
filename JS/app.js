@@ -534,3 +534,141 @@
 // }
 
 // console.log(randomNumberRange(10,30));
+
+// const student = {
+//     name: "pranav",
+//     age: 22,
+//     eng: 98,
+//     math: 95,
+//     phy: 97,
+//     getAvg(){
+//         let avg = (this.eng + this.math + this.phy) / 3;
+//         console.log(`${this.name} got avg marks ${avg}`);
+//     }
+// };
+
+// function getAvg(){
+//     console.log(this);
+// }
+
+
+// Exception Handling
+
+// console.log("hello");
+// console.log("hello");
+// console.log("hello");
+// // console.log(a);
+// try{
+//     console.log(a);
+// }catch(err){
+//     console.log(err);
+//     // console.log("caught an error... a is not defined");
+// }
+// console.log("hello");
+// console.log("hello");
+
+// Arrow Functions
+
+// const sum = (a,b) => {
+//     console.log(a+b);
+// }
+
+// const cube = (a) => {
+//     console.log(a*a*a);
+// }
+
+// const pow = (a,b) => {
+//     return a**b;
+// }
+
+// Implicit return
+// const mul = (a,b) => (a * b);
+// const add = (a,b) => (a + b);
+// const cube = (a) => a*a*a;
+
+// console.log("hi there!");
+
+// setTimeout( () => {
+//     console.log("Apna College")
+// }, 4000);
+
+// let id = setInterval( () => {
+//     console.log("Apna College")
+// }, 2000);
+
+// console.log(id);
+
+// clearInterval(id);
+
+// console.log("Welcome to");
+
+//Functions(this keyword)
+
+// Arrow func() - refers to parent function(Lexical Scope)
+// Normal func() - this(calling object) normal function scope
+
+// const student = {
+//     name: "pranav",
+//     marks: 96,
+//     prop: this, //global scope
+//     getName: function(){
+//         console.log(this);
+//         return this.name;
+//     },
+//     getMarks:() => {
+//         console.log(this); //parent's scope -> window
+//         return this.marks;
+//     },
+//     getInfo1: function() {
+//         setTimeout(() => {
+//             console.log(this)
+//         }, 2000);
+//     },
+//     getInfo2: function() {
+//         setTimeout(function() {
+//             console.log(this)
+//         } ,2000);
+//     }
+// };
+
+// const square = (n) => n*n;
+
+// let id = setInterval(() => {
+//     console.log("Hello World");
+// }, 2000);
+
+// setTimeout(() => {
+//     clearInterval(id);
+//     console.log("clear interval ran ")
+// }, 10000);
+
+// let arrayAverage = (arr) => {
+//     let sum = 0;
+//     for(let i=0; i<arr.length; i++){
+//         sum += arr[i];
+//     }
+//     return sum/arr.length;
+// }
+
+// let arr = [1,2,3,4,5,6,7,8,9,10];
+
+// console.log(arrayAverage(arr));
+
+// const Even = (n) => n % 2 == 0;
+
+// let length = 4;
+
+// function callback() {
+//     console.log(this.length);
+// }
+
+// const object = {
+//     length: 5,
+//     method(callback){
+//         callback();
+//     },
+// };
+
+// object.method(callback, 1, 2);
+
+// console.log(window.length);
