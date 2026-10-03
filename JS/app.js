@@ -672,3 +672,37 @@
 // object.method(callback, 1, 2);
 
 // console.log(window.length);
+
+// Array Methods 
+
+// let arr = [1,2,3,4,5];
+
+// let print = function (el){
+//     console.log(el);
+// }
+
+// arr.forEach(print);
+
+// arr.forEach(function (el){
+//     console.log(el);
+// })
+
+// arr.forEach((el) => {
+//     console.log(el);
+// })
+
+// let arr = [{
+//     name: "pranav",
+//     marks: 95
+// }, {
+//     name: "shiva",
+//     marks: 99
+// }, {
+//     name: "nikhil",
+//     marks: 97
+// }]
+
+// arr.forEach((student) => {
+//     console.log(student.marks);
+// })
+
