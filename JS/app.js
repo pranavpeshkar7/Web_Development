@@ -702,7 +702,200 @@
 //     marks: 97
 // }]
 
+// let gpa = arr.map( (el => {
+//     return el.marks / 10;
+// }));
+
 // arr.forEach((student) => {
 //     console.log(student.marks);
 // })
 
+// let num = [1,2,3,4];
+
+// let double = num.map((el) => {
+//     return el*2;
+// });
+
+// let double = num.map((el) => {});
+
+// Filter
+
+// let nums = [1,2,3,4,5,6,7,8,9,10];
+
+// let ans = nums.filter((el) => {
+//     return !(el % 2 == 0);
+// })
+
+// Every
+
+// let nums = [10,20,30,40,50];
+// let ans = nums.every((el) => el % 10 == 0);
+
+// Reduce
+
+// let nums = [1,2,3,4];
+
+// let finalVal = nums.reduce((res, el) => {
+//     console.log(res);
+//     return res+el;
+// });
+// console.log(finalVal);
+
+// let arr = [1,4,73,7,77,6,3,5,2,5,7,8,9];
+
+// let max = arr.reduce((max, el) => {
+//     if(max < el){
+//         return el;
+//     }else{
+//         return max;
+//     }
+// }); 
+
+// let min = arr.reduce((min, el) => {
+//     if(min < el){
+//         return min;
+//     }else{
+//         return el;
+//     }
+// });
+
+//Default Parameters
+
+// function sum(a, b = 3){
+//     return a+b;
+// }
+
+// sum(2);
+
+//spread -> expands an iterable into multiple values
+
+// let arr = [1,2,3,4,5];
+
+// let newArr = [...arr];
+
+// let chars = [..."pranav"];
+
+// let even = [2,4,6,8,10];
+// let odd = [1,3,5,7,9];
+
+// let nums = [...even, ...odd];
+
+// let data = {
+//     email: "ironman@gmail.com",
+//     password: "abcd"
+// };
+
+// const dataCopy = {...data, id: 123, country: "ironman"};
+
+// let obj1 = {...arr};
+
+// let obj2 = {..."hello"};
+
+//Rest
+
+// function sum(...args){
+//     for(let i=0; i<args.length; i++){
+//         console.log("you gave us:",args[i]);
+//     }
+// }
+
+// function min(a,b,c,d){
+//     console.log(arguments.length); 
+// }
+
+// function sum(...args){
+//     return args.reduce((sum, el) => sum + el);
+// }
+
+// function min(msg, ...args){
+//     console.log(msg);
+//     return args.reduce((min, el) => {
+//         if(min > el){
+//             return el;
+//         }else{
+//             return min;
+//         }
+//     });
+// }
+
+//Destructuring
+
+// let names = ["tony","bruce","steve","peter"];
+// let [winner, runnerup, ...others] = names;
+// console.log(winner, runnerup);
+
+// const student = {
+//     name: "pranav",
+//     age: 14,
+//     class: 9,
+//     subjects: ["hind","english","math","science"],
+//     username: "pranav@134",
+//     password: "abcd",
+//     city: "Akola"
+// }
+
+// let username = student.username;
+// let password = student.password;
+
+//using objects
+
+// let {username, password} = student; 
+// let {username: user, password: secret, city : place = "Mumbai"} = student; 
+
+// let arr = [1,2,3,4,5];
+
+// let squareAndSum = arr.reduce((ans, el) => {
+//     const square = arr.map(ans + (el*el));
+//     console.log(square);
+//     let sum = ans + el; 
+//     return (sum/arr.length);
+// });
+
+// let squareAndSum = function(){
+//     const square = arr.map((num) => (num*num));
+//     console.log(square);
+//     let sum = square.reduce((acc, cur) => acc+cur, 0);
+//     let avg = sum / arr.length;
+//     console.log(avg);
+// }
+
+// let ans = arr.map((el) => {
+//     return el + 5;
+// })
+
+// console.log(arr.map((num) => num + 5));
+
+// let str = ['tony','bruce','steve','peter'];
+
+// let newArr = str.map((el) => {
+//     return el.toUpperCase();
+// })
+
+// console.log(str.map((str) => str.toUpperCase()));
+
+// let arr = [2,4,6,8,10];
+
+// function doubleAndReturnArgs(arr, ...args){
+//     return newArr = [...arr, args];
+// }
+
+// const doubleAndReturnArgs = (arr, ...args) => [
+//     ...arr, ...args.map((v) => v*2)
+// ];
+
+// let obj1 = {
+//     name: "pranav",
+//     age: 22
+// };
+
+// let obj2 = {
+//     class: "BE",
+//     college: "KSE"
+// };
+
+// // function mergeObjects(obj1, obj2){
+// //     return obj = {...obj1, obj2};
+// // }
+
+// const mergeObjects = (obj1, obj2) => ({...obj1, ...obj2});
+// mergeObjects(obj1, obj2);
