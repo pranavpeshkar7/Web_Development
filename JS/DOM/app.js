@@ -20,3 +20,7 @@
 //     smallImages[i].src = "assets/spiderman_img.png";
 //     console.log(`value of image no. ${i} is changed`)
 // }
+
+// document.getElementsByTagName("p");
+// document.getElementsByTagName("p")[1];
+// document.getElementsByTagName("p")[1].innerText = "abc";
