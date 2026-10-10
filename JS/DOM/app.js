@@ -24,3 +24,11 @@
 // document.getElementsByTagName("p");
 // document.getElementsByTagName("p")[1];
 // document.getElementsByTagName("p")[1].innerText = "abc";
+
+// // console.log(document.querySelector('h1'));
+// console.dir(document.querySelectorAll('h1'));
+// console.dir(document.querySelector('h1'));
+// console.dir(document.querySelector('#description'));
+// console.dir(document.querySelector('.oldImg'));
+// console.dir(document.querySelector('div a'));
+// console.dir(document.querySelectorAll('div a'));
