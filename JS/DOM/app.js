@@ -34,3 +34,5 @@
 // console.dir(document.querySelectorAll('div a'));
 
 // console.dir(document.querySelector('p b'));
+
+// console.dir(document.querySelector('div h4'));
