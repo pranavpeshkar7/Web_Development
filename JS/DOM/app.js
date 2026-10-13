@@ -36,3 +36,6 @@
 // console.dir(document.querySelector('p b'));
 
 // console.dir(document.querySelector('div h4'));
+
+// console.dir(document.querySelector('div img'));
+// console.dir(document.querySelector('div ul'));
