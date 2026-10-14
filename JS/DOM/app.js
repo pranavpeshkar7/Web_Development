@@ -39,3 +39,4 @@
 
 // console.dir(document.querySelector('div img'));
 // console.dir(document.querySelector('div ul'));
+// console.log(document.querySelector('body img'));
