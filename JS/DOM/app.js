@@ -41,3 +41,4 @@
 // console.dir(document.querySelector('div ul'));
 // console.log(document.querySelector('body img'));
 // console.log(document.querySelector('body p b'))
+// console.log(document.querySelector('body div h4'));
