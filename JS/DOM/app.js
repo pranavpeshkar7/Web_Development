@@ -44,3 +44,4 @@
 // console.log(document.querySelector('body div h4'));
 // console.log(document.getElementsByTagName("h1"));
 // console.log(document.getElementsByTagName("h4"));
+// console.log(document.getElementsByTagName("h2")[0]);
