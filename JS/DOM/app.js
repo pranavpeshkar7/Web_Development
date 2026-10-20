@@ -45,3 +45,4 @@
 // console.log(document.getElementsByTagName("h1"));
 // console.log(document.getElementsByTagName("h4"));
 // console.log(document.getElementsByTagName("h2")[0]);
+// console.log(document.getElementsByTagName("p"));
