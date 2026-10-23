@@ -48,3 +48,4 @@
 // console.log(document.getElementsByTagName("p"));
 // console.log(document.getElementsByTagName("img"));
 // console.log(document.getElementsByTagName("a"));
+console.log(document.getElementsByTagName("div"));
