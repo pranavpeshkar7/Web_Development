@@ -50,4 +50,5 @@
 // console.log(document.getElementsByTagName("a"));
 // console.log(document.getElementsByTagName("div"));
 // console.log(document.getElementsByTagName("body"));
-console.log(document.getElementsByTagName("head"));
+// console.log(document.getElementsByTagName("head"));
+// console.log(document.getElementsByTagName("html"));
