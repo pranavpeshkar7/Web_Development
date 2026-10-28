@@ -52,4 +52,5 @@
 // console.log(document.getElementsByTagName("body"));
 // console.log(document.getElementsByTagName("head"));
 // console.log(document.getElementsByTagName("html"));
-console.log(document.getElementsByTagName("meta"));
+// console.log(document.getElementsByTagName("meta"));
+console.log(document.getElementsByTagName("title"))
