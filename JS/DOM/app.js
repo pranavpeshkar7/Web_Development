@@ -55,3 +55,4 @@
 // console.log(document.getElementsByTagName("meta"));
 // console.log(document.getElementsByTagName("title"));
 // console.log(document.getElementsByTagName("link"));
+// console.log(document.getElementsByTagName("ul"));
