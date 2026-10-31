@@ -56,3 +56,4 @@
 // console.log(document.getElementsByTagName("title"));
 // console.log(document.getElementsByTagName("link"));
 // console.log(document.getElementsByTagName("ul"));
+console.log(document.getElementsByTagName("li"));
