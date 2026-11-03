@@ -53,6 +53,7 @@
 // console.log(document.getElementsByTagName("head"));
 // console.log(document.getElementsByTagName("html"));
 // console.log(document.getElementsByTagName("meta"));
+// console.log(document.getElementsByTagName("meta")[0]);
 // console.log(document.getElementsByTagName("title"));
 // console.log(document.getElementsByTagName("link"));
 // console.log(document.getElementsByTagName("ul"));
