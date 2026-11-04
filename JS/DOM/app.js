@@ -57,6 +57,7 @@
 // console.log(document.getElementsByTagName("title"));
 // console.log(document.getElementsByTagName("link"));
 // console.log(document.getElementsByTagName("ul"));
+// console.log(document.getElementsByTagName("ul")[1]);
 // console.log(document.getElementsByTagName("li"));
 // console.log(document.getElementsByTagName("script"));
 // console.log(document.getElementById("description"));
