@@ -47,7 +47,7 @@
 // console.log(document.getElementsByTagName("h2")[0]);
 // console.log(document.getElementsByTagName("p"));
 // console.log(document.getElementsByTagName("img"));
-console.log(document.getElementsByTagName("img")[1]);
+// console.log(document.getElementsByTagName("img")[1]);
 // console.log(document.getElementsByTagName("a"));
 // console.log(document.getElementsByTagName("div"));
 // console.log(document.getElementsByTagName("div")[1]);
@@ -59,6 +59,7 @@ console.log(document.getElementsByTagName("img")[1]);
 // console.log(document.getElementsByTagName("title"));
 // console.log(document.getElementsByTagName("link"));
 // console.log(document.getElementsByTagName("ul"));
+console.log(document.getElementsByTagName("ul")[0]);
 // console.log(document.getElementsByTagName("ul")[1]);
 // console.log(document.getElementsByTagName("li"));
 // console.log(document.getElementsByTagName("script"));
