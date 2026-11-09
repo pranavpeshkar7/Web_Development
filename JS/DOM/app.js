@@ -63,5 +63,6 @@
 // console.log(document.getElementsByTagName("ul")[1]);
 // console.log(document.getElementsByTagName("li"));
 // console.log(document.getElementsByTagName("li")[1]);
+// console.log(document.getElementsByTagName("li")[2]);
 // console.log(document.getElementsByTagName("script"));
 // console.log(document.getElementById("description"));
