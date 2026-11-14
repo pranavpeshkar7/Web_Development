@@ -52,8 +52,9 @@
 // console.log(document.getElementsByTagName("div"));
 // console.log(document.getElementsByTagName("div")[1]);
 // console.log(document.getElementsByTagName("body"));
-console.log(document.getElementsByTagName("body")[0]);
+// console.log(document.getElementsByTagName("body")[0]);
 // console.log(document.getElementsByTagName("head"));
+console.log(document.getElementsByTagName("head")[0]);
 // console.log(document.getElementsByTagName("html"));
 // console.log(document.getElementsByTagName("html")[0]);
 // console.log(document.getElementsByTagName("meta"));
