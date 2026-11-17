@@ -43,11 +43,12 @@
 // console.log(document.querySelector('body p b'))
 // console.log(document.querySelector('body div h4'));
 // console.log(document.getElementsByTagName("h1"));
+console.log(document.getElementsByTagName("h1")[0]);
 // console.log(document.getElementsByTagName("h4"));
 // console.log(document.getElementsByTagName("h2")[0]);
 // console.log(document.getElementsByTagName("p"));
 // console.log(document.getElementsByTagName("img"));
-console.log(document.getElementsByTagName("img")[0]);
+// console.log(document.getElementsByTagName("img")[0]);
 // console.log(document.getElementsByTagName("img")[1]);
 // console.log(document.getElementsByTagName("a"));
 // console.log(document.getElementsByTagName("div"));
