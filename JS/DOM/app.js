@@ -43,8 +43,9 @@
 // console.log(document.querySelector('body p b'))
 // console.log(document.querySelector('body div h4'));
 // console.log(document.getElementsByTagName("h1"));
-console.log(document.getElementsByTagName("h1")[0]);
+// console.log(document.getElementsByTagName("h1")[0]);
 // console.log(document.getElementsByTagName("h4"));
+console.log(document.getElementsByTagName("h4")[0]);
 // console.log(document.getElementsByTagName("h2")[0]);
 // console.log(document.getElementsByTagName("p"));
 // console.log(document.getElementsByTagName("img"));
