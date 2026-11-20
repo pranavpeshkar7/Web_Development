@@ -48,6 +48,7 @@
 // console.log(document.getElementsByTagName("h4")[0]);
 // console.log(document.getElementsByTagName("h2")[0]);
 // console.log(document.getElementsByTagName("p"));
+// console.log(document.getElementsByTagName("p")[0]);
 // console.log(document.getElementsByTagName("img"));
 // console.log(document.getElementsByTagName("img")[0]);
 // console.log(document.getElementsByTagName("img")[1]);
@@ -74,5 +75,5 @@
 // console.log(document.getElementsByTagName("li")[2]);
 // console.log(document.getElementsByTagName("li")[3]);
 // console.log(document.getElementsByTagName("script"));
-console.log(document.getElementsByTagName("script")[0]);
+// console.log(document.getElementsByTagName("script")[0]);
 // console.log(document.getElementById("description"));
